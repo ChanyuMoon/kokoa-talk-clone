@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoatalk</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Welcome to Kokoa clone</title>
 </head>
 <body>
-    <div id="status-bar">
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
-            <!--To Do: Wifi icon-->
+            <i class="fas fa-wifi"></i>
         </div>
         <div class="status-bar__column">
             <span>18:43</span>
@@ -18,10 +19,23 @@
         <div class="status-bar__column">
             <!--To Do: Turn Locked icon-->
             <span>110%</span>
-            <!--To Do: Battery icon-->
-            <!--To DO: Lightning icon-->
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+            <a href=""></a>
         </div>
     </div>
-    
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Kokoa clone</h1>
+        <p class="welcome-header__text">If you have a Kokoa clone, log in with your email or phone number.</p>
+    </header>
+    <!--form is unique-->
+    <form action="" id="login-form">
+        <input type="text" placeholder="Email or phone number">
+        <input type="password" placeholder="Password">
+        <input type="submit" value="Log In">
+        <input type="submit" value="Sign Up">
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
 </body>
 </html>
