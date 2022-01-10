@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    margin: 0px;
+
+}
+.status-bar{
+    display: flex;
+    justify-content: center;
+}
+.status-bar__column{
+    flex: 2;
+}
+.status-bar__column:nth-child(3){
+    justify-self: end;
+}
