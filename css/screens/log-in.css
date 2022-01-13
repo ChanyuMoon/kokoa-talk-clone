@@ -18,7 +18,8 @@
     flex-direction: column;
     margin: 0px 23px;
 }
-.login-form input{
+
+.login-form__id-input, .login-form__pswd-input, .login-form__login-btn, .login-form__sign-up-btn{
     padding: 23px 0px;
     border: none;
 }
@@ -26,9 +27,9 @@
     border-bottom: 1px solid rgb(0, 0, 0, 0.2);
     transition: 0.3s ease-in-out;
 }
-.login-form__id-input, .login-form__pswd-input:focus{
-    outline: none;
+.login-form__id-input:focus, .login-form__pswd-input:focus{
     border-color: var(--kokoa-yellow);
+    outline: none;
 }
 .login-form__login-btn, .login-form__sign-up-btn{
     background-color: var(--kokoa-yellow);
