@@ -81,7 +81,7 @@ html에서
 }
 ```  
 
-<img src="img/22-1-13-CSS_style_precedence_index_screen_final.png" width=375px height=667px/>  
+<p align="center"><img src="img/22-1-13-CSS_style_precedence_index_screen_final.png" width=375px height=667px/><p/>  
 
 편안~  
 
