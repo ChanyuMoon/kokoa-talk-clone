@@ -29,7 +29,6 @@
 }
 .login-form__id-input:focus, .login-form__pswd-input:focus{
     border-color: var(--kokoa-yellow);
-    outline: none;
 }
 .login-form__login-btn, .login-form__sign-up-btn{
     background-color: var(--kokoa-yellow);

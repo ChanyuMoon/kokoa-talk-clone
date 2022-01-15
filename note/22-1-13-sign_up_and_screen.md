@@ -9,9 +9,9 @@ html을 읽고 brouse 해주는 browser는 chrome, safari, edge 등등이 있다
 
 지난 포스팅(중간에 element 위치하게 하기)에서 봤듯이 소스를 짜고 다음 step으로 넘어가기전, browser가 기본적으로 넣은 margin, padding등을 없에보도록 하겠다.  
 
-<img src="img/22-1-13-sign_up_and_screen_default_margin.png">  
+<img src="img/22-1-13-sign_up_and_screen_default_margin.png"/>  
 
-<img src="img/22-1-13-sign_up_and_screen_developder_tool_showing_margin.png">  
+<img src="img/22-1-13-sign_up_and_screen_developder_tool_showing_margin.png"/>  
 
 위처럼 설정하지 않은 8 margin이 body에 임의로 들어가 있는 것을 알 수 있다.  
 
