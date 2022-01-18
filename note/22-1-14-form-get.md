@@ -26,7 +26,7 @@ form 의 `action="friends.html"`은 이 form 내부의 정보들을 받아 `frei
 `get`방식으로 다음 html로 넘어갔을때 입력한 정보가 어떻게 표시되는지는 아래 그림을 통해서 알 수 있다.  
 
 <img src="img/22-1-14-login.png"/>  
-<img src="img/22-1-14-url_info.png">  
+<img src="img/22-1-14-url_info.png"/>  
 
 Url에서 보이듯이 가장 뒤에 `input`의 name과 입력값이 key-value 형식으로 뒤에 적혀있는 것을 알 수있다.  
 
