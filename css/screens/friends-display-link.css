@@ -1,19 +1,17 @@
 .scroll-screen{
     position: relative;
-    top: 82px;
-    width: 100%;
-    height: 300vh;
+    top: 122px;
 }
-#friends-display-link{
+.friends-display-link{
     text-align: center;
-    position: relative;
-    top: 0px;
+    position: fixed;
+    top: 82px;
     background-color: #FAFAFA;
     padding: 12px 0px;
-    z-index: -1;
+    width: 100%;
     color: rgba(0, 0, 0, 0.2);
 }
-#friends-display-link span{
+.friends-display-link__span{
     color: #373737;
 }
 
